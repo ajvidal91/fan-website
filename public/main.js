@@ -25,8 +25,8 @@ Array.from(thumbUp).forEach(function(element) {
           console.log(data)
           window.location.reload(true)
         })
-      });
-});
+      })
+})
 
 Array.from(thumbDown).forEach(function(element) {
       element.addEventListener('click', function(){
